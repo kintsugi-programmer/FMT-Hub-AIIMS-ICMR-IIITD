@@ -1,0 +1,44 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.env.local
+*.env
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Database files (if using SQLite)
+*.sqlite3
+*.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
+
+# FastAPI static and media files (uploads)
+uploads/
+staticfiles/
+media/
+
+# Ignore Uvicorn and Gunicorn logs
+*.pid
+*.sock
+*.pid.lock
+
+# Ignore Docker-related files
+docker-compose.override.yml
+.dockerignore
+
+# Ignore coverage reports
+htmlcov/
+.coverage
