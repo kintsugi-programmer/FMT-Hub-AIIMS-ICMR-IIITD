@@ -114,7 +114,6 @@ INSERT INTO users (username, password_hash, role, center_code) VALUES
 ('reader05', 'hashed_password_11', 'central_reader', '05'),
 ('reader06', 'hashed_password_12', 'central_reader', '06'),
 ('superadmin', 'hashed_superadmin_password', 'super_admin', '01');
-
 ```
 
 ---
