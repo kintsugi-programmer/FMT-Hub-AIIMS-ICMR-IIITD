@@ -1,0 +1,27 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables (sensitive info)
+.env
+
+# Uploaded media files (do not version control user uploads)
+uploads/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Editor and IDE directories
+.vscode/
+.idea/
+
+# Log files
+*.log

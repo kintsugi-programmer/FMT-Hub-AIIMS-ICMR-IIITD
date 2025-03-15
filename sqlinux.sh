@@ -34,7 +34,7 @@ install_mysql() {
 uninstall_mysql() {
     echo "Uninstalling MySQL..."
     sudo systemctl stop mysql
-    sudo apt-get purge -y mysql-server mysql-client mysql-common
+    sudo apt-get purge mysql-server mysql-server-8.0 mysql-client mysql-common
     sudo apt-get autoremove -y
     sudo apt-get autoclean
     sudo rm -rf /etc/mysql /var/lib/mysql
